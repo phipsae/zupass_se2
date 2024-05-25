@@ -18,7 +18,17 @@ In this Starter Kit you'll find an example of how to generate a proof and verify
 
 ---
 
-### 🏃‍♀️ Quick Start
+Before you begin, you need to install the following tools:
+
+- [Node (>= v18.17)](https://nodejs.org/en/download/)
+- Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
+- [Git](https://git-scm.com/downloads)
+
+## Quickstart
+
+To get started with Scaffold-ETH 2, follow the steps below:
+
+1. Clone this repo & install dependencies
 
 1. Clone the repo
 ```bash
