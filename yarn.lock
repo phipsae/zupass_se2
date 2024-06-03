@@ -2026,7 +2026,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pcd/eddsa-frog-pcd@npm:0.3.0":
+"@pcd/eddsa-frog-pcd@npm:0.3.0, @pcd/eddsa-frog-pcd@npm:^0.3.0":
   version: 0.3.0
   resolution: "@pcd/eddsa-frog-pcd@npm:0.3.0"
   dependencies:
@@ -2352,6 +2352,25 @@ __metadata:
     snarkjs: ^0.7.3
     uuid: ^9.0.0
   checksum: a4ba3dbf02ce10b510861c64c0751a0c97633ded009c75c3ad8844ce30e86781753a52aa26b965afb14c130f85ad0747eb5ccfc8232349ba148ad28d768e46e7
+  languageName: node
+  linkType: hard
+
+"@pcd/zk-eddsa-frog-pcd@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@pcd/zk-eddsa-frog-pcd@npm:0.3.0"
+  dependencies:
+    "@pcd/eddsa-frog-pcd": ^0.3.0
+    "@pcd/eddsa-pcd": 0.6.0
+    "@pcd/pcd-types": ^0.11.0
+    "@pcd/semaphore-identity-pcd": 0.11.0
+    "@pcd/semaphore-signature-pcd": 0.11.0
+    "@pcd/util": 0.5.0
+    "@semaphore-protocol/identity": ^3.15.2
+    circomlibjs: ^0.1.7
+    json-bigint: ^1.0.0
+    snarkjs: ^0.7.3
+    uuid: ^9.0.0
+  checksum: 91aded323ce4323a8d0a3114b124d2f93e144126116b610065d5a43c1f595d8dbd86ade385346405c78999ee2dff79d7d89f455e913a67cac34c76852cef17f8
   languageName: node
   linkType: hard
 
@@ -12967,6 +12986,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "se-2@workspace:."
   dependencies:
+    "@pcd/zk-eddsa-frog-pcd": ^0.3.0
     husky: ^8.0.1
     lint-staged: ^13.0.3
   languageName: unknown
